@@ -44,7 +44,7 @@ local obkIfruit = {
 
         onSelected = function(self, _, btn, CMenu, menuData, currentButton, currentSlt, result)
               if btn.name == "Ifruit" then
-                    TriggerServerEvent('OblackIfruit:buy', 500, "phone", "Telephone")
+                    TriggerServerEvent('OblackIfruit:buy', 500, "tel", "Telephone")
               elseif btn.name == "Carte Sim" then
                     TriggerServerEvent('OblackIfruit:buy', 100, "sim", "Carte Sim")
 
